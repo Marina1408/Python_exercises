@@ -1,0 +1,5 @@
+name = input("Введіть своє ім'я \n > ")
+b_name = name.encode()
+print(b_name)
+x_name = b_name.hex()
+print(x_name)
